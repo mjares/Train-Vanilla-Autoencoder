@@ -24,8 +24,8 @@ if os.path.getsize(filename) > 0:
 
 # Iterating
 # * Missing 15 hs for lat 15
-lat = [15]  # Latent dimension
-hs = [15]   # Number of nodes in hidden layers
+lat = [5]  # Latent dimension
+hs = [25, 15, 5]   # Number of nodes in hidden layers
 hl = [1, 2]  # Number of hidden layers
 leak = [0.01]
 n_epochs = 500
